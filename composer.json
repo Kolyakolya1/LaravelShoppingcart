@@ -15,6 +15,12 @@
             "homepage": "https://skyraptor.eu/"
         }
     ],
+     "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/Kolyakolya1/LaravelShoppingcart"
+        }
+    ],
     "require": {
         "illuminate/support": "5.4.*||5.5.*||5.6.*||5.7.*||5.8.*||^6.0||^7.0||^8.0",
         "illuminate/session": "5.4.*||5.5.*||5.6.*||5.7.*||5.8.*||^6.0||^7.0||^8.0",

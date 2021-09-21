@@ -327,7 +327,7 @@ class CartItem implements Arrayable, Jsonable
         $this->weight = Arr::get($attributes, 'weight', $this->weight);
         $this->options = new CartItemOptions(Arr::get($attributes, 'options', $this->options));
 
-        $this->rowId = $this->generateRowId($this->id, $this->options->all());
+       // $this->rowId = $this->generateRowId($this->id, $this->options->all());
     }
 
     /**
